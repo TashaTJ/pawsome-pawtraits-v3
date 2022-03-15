@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@100&display=swap');
+
 body {
-    font-family: Arial;
+    font-family: Bangers, sans-serif;
+    color: black;
 }
