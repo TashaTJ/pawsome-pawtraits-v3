@@ -85,6 +85,16 @@ img {
     background-repeat: no-repeat;
 }
 
+label {
+    margin: 0 10px 0 0;
+    font-size: 40px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
 /* socials footer */
 
 .footer a:hover {
@@ -118,3 +128,28 @@ img {
     margin: 0.125rem 0.625rem;
 }
 
+/* Small devices under 500px */
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    #menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    #menu a {
+        display: block;
+        /*border-bottom: 1px solid black;*/
+    }
+
+    #toggle:checked ~ #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /*flex-grow: 3;
+        text-align: left;*/
+        }
