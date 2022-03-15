@@ -76,3 +76,13 @@ img {
     height: 100%;
 }
 
+/* Hero Image */
+
+.hero {
+    height: 100vh;
+    background-image: url(../images/Hero_Image_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
