@@ -9,6 +9,8 @@
 body {
     font-family: Bangers, sans-serif;
     color: black;
+    position: absolute;
+    width: 100vw;
     /*line-height: 1.6;*/
 }
 
@@ -67,7 +69,7 @@ img {
 /* utilities*/
 
 .container {
-    max-width: 1500px;
+    max-width: 2000px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 10px;
@@ -125,6 +127,7 @@ img {
 
 .hero {
     height: 100vh;
+    width: 100vw;
     background-image: url(../images/Hero_Image_1.jpg);
     background-position: center;
     background-size: cover;
