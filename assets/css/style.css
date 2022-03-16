@@ -156,11 +156,19 @@ label {
     gap: var(--gap);
 }
 
-.image-grid>img {
+.image-grid >img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    
 }
+
+/*.image-grid img:hover {
+    transition: transform 0.2s ease-in;
+} */
+
+
 
 /* About Page */
 
@@ -175,7 +183,7 @@ label {
 /* Craig*/
 
 .craig {
-    height: 400px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.2);
     position: relative;
     font-weight: 50px;
@@ -262,6 +270,11 @@ label {
 
     }
 
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
 
 
 
@@ -275,6 +288,11 @@ label {
     .image-grid {
         --num-cols: 3;
         --row-height: 200px
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 
 }
