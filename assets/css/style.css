@@ -203,13 +203,18 @@ label {
 
     }
 
-    
-        
-        
-    
-
 
 } 
+
+/* About Page */
+
+.background-about {
+    height: 100vh;
+    background-image: url(../images/background\ about\ page.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
