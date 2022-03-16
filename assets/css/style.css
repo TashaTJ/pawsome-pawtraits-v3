@@ -14,6 +14,15 @@ body {
     /*line-height: 1.6;*/
 }
 
+html,
+body {
+    background: url("../images/Hero_Image_1.jpg") no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 ul {
     list-style-type: none;
 }
@@ -49,7 +58,7 @@ img {
 
 .navbar ul {
     display: flex;
-    
+
 }
 
 .navbar a {
@@ -76,10 +85,10 @@ img {
 }
 
 .card {
-    background-color:white;
+    background-color: white;
     color: black;
     /* border-radius: 10px;*/
-    box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 40px;
     margin: 20px;
 }
@@ -160,12 +169,12 @@ label {
     gap: var(--gap);
 }
 
-.image-grid >img {
+.image-grid>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
-    
+
 }
 
 /*.image-grid img:hover {
@@ -197,7 +206,7 @@ label {
 .craig-image {
     padding: 5px;
     margin-top: 40px;
-    
+
 }
 
 .wall-of-prints {
@@ -257,7 +266,7 @@ label {
         text-align: center;
         width: 100%;
         display: none;
-    
+
     }
 
     #menu a {
@@ -292,12 +301,12 @@ label {
 
 
 
-} 
+}
 
 
 
 /* Medium devices (tablets and up) */
-@media (min-width: 501px) and (max-width: 768px) { 
+@media (min-width: 501px) and (max-width: 768px) {
 
     .image-grid {
         --num-cols: 3;
@@ -312,7 +321,7 @@ label {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .image-grid {
         --num-cols: 5;
         --row-height: 300px
