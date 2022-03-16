@@ -47,10 +47,11 @@ img {
 
 .navbar ul {
     display: flex;
+    
 }
 
 .navbar a {
-    padding: 10px;
+    padding: 5px;
     margin: 0 5px;
 }
 
