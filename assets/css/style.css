@@ -14,15 +14,6 @@ body {
     /*line-height: 1.6;*/
 }
 
-/*html,
-body {
-    background: url("../images/Hero_Image_1.jpg") no-repeat center center fixed;
-    -webkit-background-size: 100%;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
 ul {
     list-style-type: none;
 }
@@ -123,7 +114,7 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: 400px 700px;
+    grid-template-columns: 500px 700px;
     gap: 10px;
     justify-content: space-around;
     align-items: center;
@@ -184,6 +175,9 @@ label {
 
 /* About Page */
 
+#header-about {
+    background-color: white;
+}
 .background-about {
     height: 100vh;
     background-image: url(../images/Background-about-page-desktop.jpg);
