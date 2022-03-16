@@ -74,7 +74,7 @@ img {
 }
 
 .card {
-    background-color:#CBE0E8;
+    background-color:white;
     color: black;
     /* border-radius: 10px;*/
     box-shadow: 0 3px 10px rgba(0,0,0, 0.2);
@@ -112,7 +112,7 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: 300px 500px;
+    grid-template-columns: 400px 700px;
     gap: 10px;
     justify-content: space-around;
     align-items: center;
@@ -193,6 +193,11 @@ label {
 
 .craig-image {
     padding: 5px;
+    margin-top: 40px;
+}
+
+.wall-of-prints {
+    margin-bottom: 40px;
 }
 
 /* socials footer */
