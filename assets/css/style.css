@@ -104,6 +104,8 @@ img {
     border: 1px;
     border-radius: 2px;
     transition: 500ms ease all;
+    outline: 2px solid black;
+    margin-top: 2px ;
 
 }
 
@@ -252,6 +254,7 @@ label {
     width: 500px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     background-color: white;
+    outline: 2px solid black;
 }
 
 .contact-form {
@@ -290,7 +293,7 @@ textarea {
     padding: 4px 0;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #d1ccbd ;
+    border-bottom: 2px solid #d1ccbd ;
     transition: 500ms ease all; 
 }
 
@@ -300,7 +303,7 @@ input {
     padding: 4px 0;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #d1ccbd ;
+    border-bottom: 2px solid #d1ccbd ;
     transition: 500ms ease all;
 
 }
@@ -313,8 +316,8 @@ input:focus {
 
 textarea:focus {
     outline: none;
-    box-shadow: 0 1px 0 0 #786C44;
-    border-color: #786C44 ;
+    box-shadow: 0 1px 0 0 black;
+    border-color: black ;
 
 }
 /* socials footer */
