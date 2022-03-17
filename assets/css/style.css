@@ -82,6 +82,7 @@ img {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 40px;
     margin: 20px;
+    outline: 2px solid black;
 }
 
 .contact-form-card {
@@ -227,6 +228,10 @@ label {
     margin-bottom: 40px;
 }
 
+
+
+/* Contact */
+
 .bg-contact {
     height: 100vh;
     background-image: url(../images/background-image-contact-3.jpg);
@@ -234,8 +239,6 @@ label {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* Contact */
 
 .contact-wrap {
     height: 50vh;
