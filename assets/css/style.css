@@ -84,6 +84,16 @@ img {
     margin: 20px;
 }
 
+.contact-form-card {
+    background-color: white;
+    color: black;
+    /* border-radius: 10px;*/
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin: 20px;
+
+}
+
 .btn1 {
     display: inline-block;
     padding: 10px 30px;
@@ -121,6 +131,14 @@ img {
     height: 100%;
 
 }
+
+/*.grid2 {
+    display: gird;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+}*/
 
 
 /* Hero Image */
@@ -212,6 +230,41 @@ label {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* Contact */
+
+.contact-wrap {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contact-top {
+    width: 500px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.contact-form {
+    padding: 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
 }
 
 /* socials footer */

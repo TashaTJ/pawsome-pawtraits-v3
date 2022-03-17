@@ -40,20 +40,55 @@
 
         </header>
 
-        <section class="contact-form">
-            <div class="container grid">
+        <!--<section class="contact-form">
+            <div class="container grid2">
                 <div class="contact-form-card">
-                    <form action="">
+                    <form method="post" action="https://formdump.codeinstitute.net/" class="contact-form">
+                        <h1>Get in touch!</h1>
+                        <p>Would you like to portratise your perfect pooch? Collaborate on a project? Or just find out
+                            more?</p>
+
                         <div>
-                            <input type="text" name="name" placeholder="Name" required>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
                         </div>
                         <div>
-                            <input type="email" name="email" placeholder="Email" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div>
-                            <input type="text " name="name" placeholder="Name" required>
+                            <label for="email">Somthing</label>
+                            <input type="text " id="something" name="something" required>
+                        </div>
+                        <div>
+                            <label for="user-question">Hi Craig</label>
+                            <textarea id="user-question" name="user-question" rows="4" cols="50">Hi Craig...</textarea>
                         </div>
                         <input type="submit" value="Send" class="btn1">
+                    </form>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="contact-wrap">
+            <div class="contact-top">
+                <div class="contact-form">
+                    <h2>Sign Up</h2>
+                    <p>Would you like to portratise your perfect pooch? Collaborate on a project? Or just find out
+                        more?</p>
+                    <form method="post" action="https://formdump.codeinstitute.net/">
+                        <div class="input-wrap">
+                            <input type="text" name="name" placeholder="name" required>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="input-wrap">
+                            <button type="submit" class="btn1">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
