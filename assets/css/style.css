@@ -289,11 +289,6 @@ textarea {
     transition: 500ms ease all; 
 }
 
-.input-wrap button {
-
-    
-}
-
 input {
     font-size: 14px;
     font-weight: 500;
@@ -404,6 +399,7 @@ textarea:focus {
 
     .contact-top {
         width: 300px;
+        margin-top: 50px;
     }
 
 
