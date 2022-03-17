@@ -435,6 +435,11 @@ textarea:focus {
         background-image: url(../images/background-image-iphone-2.jpg);
     }
 
+    .video-grid {
+        --num-cols:1;
+        --row-height:200px;
+    }
+
 
 
 
@@ -465,6 +470,11 @@ textarea:focus {
     .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .video-grid {
+        --num-cols: 2;
+        --row-height:200px;
     }
 
 }
