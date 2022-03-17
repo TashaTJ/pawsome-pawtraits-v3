@@ -73,18 +73,22 @@
         <section class="contact-wrap">
             <div class="contact-top">
                 <div class="contact-form">
-                    <h2>Sign Up</h2>
-                    <p>Would you like to portratise your perfect pooch? Collaborate on a project? Or just find out
-                        more?</p>
+                    <h3>Say hi!</h3>
+                    <p>Would you like to portratise your Perfect Pooch? Collaborate on a project? Or just find out more?</p>
+                    <p>Pop me a message in the form below...</p>
                     <form method="post" action="https://formdump.codeinstitute.net/">
                         <div class="input-wrap">
-                            <input type="text" name="name" placeholder="name" required>
+                            <input type="text" name="name" placeholder="Name" required>
                         </div>
                         <div class="input-wrap">
-                            <input type="email" name="email" placeholder="Email" required>
+                            <!-- Email type changed to search to diable autofil for good uX-->
+                            <input type="search" name="email" placeholder="Email" autocomplete="off" required>
                         </div>
                         <div class="input-wrap">
                             <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="textarea">
+                            <textarea name="Text1" cols="40" rows="5" placeholder="Your message"></textarea>
                         </div>
                         <div class="input-wrap">
                             <button type="submit" class="btn1">Submit</button>
