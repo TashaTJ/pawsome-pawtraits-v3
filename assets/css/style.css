@@ -230,9 +230,20 @@ label {
     margin-bottom: 40px;
 }
 
+/* Learn Page */
 
+.video-grid {
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height:300px;
 
-/* Contact */
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+}
+
+/* Contact Page */
 
 .bg-contact {
     height: 100vh;
