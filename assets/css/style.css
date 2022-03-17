@@ -472,10 +472,7 @@ textarea:focus {
         grid-template-rows: 1fr;
     }
 
-    .video-grid {
-        --num-cols: 2;
-        --row-height:200px;
-    }
+    
 
 }
 
